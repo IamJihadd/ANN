@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selamat 1 Tahun ♥</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23b06a72' d='M12 21s-8-5.5-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.5-8 11-8 11z'/%3E%3C/svg%3E">
+
+  <!-- Font: Cormorant Garamond (judul elegan) + Quicksand (teks) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css?v=6">
+</head>
+<body>
+
+  <!-- Hati yang jatuh perlahan di background -->
+  <div id="hearts-rain" aria-hidden="true"></div>
+
+  <!-- ============ COVER: AMPLOP PEMBUKA ============ -->
+  <div id="cover" class="cover">
+    <div class="cover-frame" aria-hidden="true"></div>
+    <div class="cover-inner">
+      <p class="cover-eyebrow">Sepucuk surat kecil</p>
+      <h1 class="cover-judul" id="cover-judul"></h1>
+      <div class="env-scene">
+        <div class="env" id="env">
+          <div class="env-back"></div>
+          <div class="env-paper">
+            <span class="paper-orn" aria-hidden="true">❦</span>
+            <p class="paper-line1" id="paper-line1"></p>
+            <p class="paper-line2" id="paper-line2"></p>
+            <p class="paper-line3" id="paper-line3"></p>
+          </div>
+          <div class="env-front"></div>
+          <div class="env-flap" id="env-flap"></div>
+          <button class="env-wax" id="env-wax" aria-label="Buka surat"></button>
+        </div>
+      </div>
+      <p class="cover-tanggal" id="cover-tanggal"></p>
+      <button class="cover-tombol" id="cover-tombol"></button>
+      <p class="cover-hint" id="cover-hint"></p>
+    </div>
+  </div>
+
+  <!-- ============ HALAMAN UTAMA ============ -->
+  <div id="page" class="hidden">
+
+  <!-- ============ HERO ============ -->
+  <header id="hero" class="section hero">
+    <p class="hero-eyebrow">Untuk yang paling istimewa</p>
+    <h1 class="hero-title" id="hero-names"></h1>
+    <p class="hero-sub" id="hero-sub"></p>
+    <div class="date-pill" id="date-pill"></div>
+    <a class="scroll-btn" href="#timeline" aria-label="Gulir ke bawah">↓</a>
+  </header>
+
+  <main>
+    <!-- ============ TIMELINE PERJALANAN CINTA ============ -->
+    <section id="timeline" class="section">
+      <h2 class="script-title reveal">Perjalanan Cinta Kita</h2>
+      <p class="section-sub reveal">Setiap babak kecil yang membawa kita ke hari ini</p>
+      <div class="timeline" id="timeline-list"></div>
+    </section>
+
+    <!-- ============ GALERI KENANGAN ============ -->
+    <section id="gallery" class="section">
+      <h2 class="script-title reveal">Galeri Kenangan</h2>
+      <p class="section-sub reveal">Momen-momen yang ingin kuingat selamanya</p>
+      <div class="gallery-grid" id="gallery-grid"></div>
+    </section>
+
+    <!-- ============ SURAT CINTA ============ -->
+    <section id="letter" class="section">
+      <h2 class="script-title reveal">Surat Untukmu</h2>
+      <p class="section-sub reveal">Dari hatiku, untuk hatimu</p>
+      <div class="letter-card reveal">
+        <div class="letter-text" id="letter-text"></div>
+        <div class="letter-sign" id="letter-sign"></div>
+      </div>
+    </section>
+
+    <!-- ============ PENUTUP ============ -->
+    <section id="closing" class="section closing">
+      <h2 class="script-title reveal" id="closing-title"></h2>
+      <p class="closing-msg reveal" id="closing-msg"></p>
+      <div class="big-heart reveal">♥</div>
+      <footer class="footer" id="footer-text"></footer>
+    </section>
+  </main>
+  </div>
+
+  <!-- Tombol musik latar (muncul otomatis jika assets/music.mp3 ada) -->
+  <button id="music-btn" class="hidden" title="Putar / jeda musik" aria-label="Putar musik">♪</button>
+
+  <!-- Urutan penting: config dulu, baru main -->
+  <script src="js/config.js?v=6"></script>
+  <script src="js/main.js?v=6"></script>
+</body>
+</html>
