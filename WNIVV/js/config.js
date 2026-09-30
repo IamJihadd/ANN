@@ -97,11 +97,11 @@ var CONFIG = {
   // Tulis di antara tanda ` (backtick). Enter boleh dipakai, tampil apa adanya.
   suratCinta: `Hai sayang,
 
-Sudah satu tahun ya sejak kita memulai semuanya. Terima kasih untuk setiap tawa yang kamu berikan, untuk sabarmu menghadapiku, dan untuk cinta yang tidak pernah kamu bortongkan.
+Sudah satu tahun ya sejak kita memulai semuanya. Terima kasih untuk setiap tawa yang kamu berikan, untuk sabarmu menghadapiku, dan untuk cinta yang tidak pernah luntur.
 
 Di hari istimewa ini, aku hanya ingin kamu tahu: dari semua hal indah yang pernah ada dalam hidupku, kamu adalah yang paling kusyukuri.
 
 Selamat anniversary pertama kita. Tahun-tahun berikutnya, sampai tua nanti, ingin kulalui bersamamu.`,
 
-  tandaTangan: "Dengan cinta, Nama Kamu ♥"
+  tandaTangan: "Dengan cinta, Your Boyfriend ♥"
 };
